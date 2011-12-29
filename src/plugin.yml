@@ -1,0 +1,4 @@
+name: BasicSpells
+main: org.spellcraft.basicspells.BasicSpells
+version: 1.0
+depend: [Spout,SpellCraft]

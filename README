@@ -1,0 +1,11 @@
+SpellCraft Starter Kit by hgilman, originally by the Aor Minecraft Devteam
+
+The spells contained in this plugin will be incorporated into SpellCraft at release. They are kept
+here to test the functionality of the SpellCraft API, as well as to keep devlopment of cool spells
+separate from the development of a robust API.
+
+When SpellCraft 1.0 is released, there will be a config file allowing admins to choose whether or
+not they want these spells included. If no other SpellCraft plugins are found on the server, they
+will enable automatically.
+
+This plugin will also be used as an example to familiarize new programmers with the SpellCraft API.
