@@ -9,7 +9,7 @@ import org.spellcraft.castable.NonTargetingSpell;
 
 public class RapidfireSpell extends NonTargetingSpell {
 	
-	public RapidfireSpell(Player instancePlayer,SpellCraft instance)
+	public RapidfireSpell(SpellCraft instance,Player instancePlayer)
 	{
 		super(instancePlayer,instance,"Rapidfire","Fires off a fast volley of arrows.",new ItemStack(Material.ARROW, 8), new ItemStack(Material.REDSTONE, 4)); // Call the super constructor.
 	}
