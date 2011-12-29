@@ -7,6 +7,7 @@ import org.spellcraft.basicspells.decoy.EnhancedDecoySpell;
 import org.spellcraft.basicspells.decoy.SuperDecoySpell;
 import org.spellcraft.basicspells.net.NetSpell;
 import org.spellcraft.basicspells.rapidfire.RapidfireSpell;
+import org.spellcraft.basicspells.snipe.SnipeSpell;
 import org.spellcraft.basicspells.spike.SpikeFortSpell;
 import org.spellcraft.basicspells.spike.SpikeSpell;
 import org.spellcraft.basicspells.spike.SpikeWallSpell;
@@ -36,6 +37,7 @@ public class BasicSpells extends SpellCraftPlugin
 		getSpellCraft().registerSpell(BasicDecoySpell.class,this);
 		getSpellCraft().registerSpell(EnhancedDecoySpell.class,this);
 		getSpellCraft().registerSpell(SuperDecoySpell.class,this);
+		getSpellCraft().registerSpell(SnipeSpell.class,this);
 		
 		
 		getLogger().info("BasicSpells enabled.");
